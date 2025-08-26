@@ -1,0 +1,33 @@
+{
+  "experiment_info": {
+    "title": "Large Font Error Charts Collection",
+    "description": "大字号误差图表集合 - PNG和PDF格式",
+    "charts_generated": 4,
+    "formats": [
+      "PNG (300 DPI)",
+      "PDF (Vector)"
+    ],
+    "font_sizes": {
+      "title": "28pt (single charts), 32pt (combined chart)",
+      "axis_labels": "24pt (single), 20pt (combined)",
+      "axis_ticks": "18pt (single), 16pt (combined)",
+      "legend": "18pt (single), 16pt (combined)"
+    }
+  },
+  "data_summary": {
+    "training_samples_range": "1400 - 22400",
+    "test_rmse_range": "116.35 - 756.47",
+    "test_mae_range": "75.59 - 642.00",
+    "test_mape_range": "10.80% - 36.24%"
+  },
+  "file_list": [
+    "rmse_vs_training_data_volume_large_font.png",
+    "rmse_vs_training_data_volume_large_font.pdf",
+    "mae_vs_training_data_volume_large_font.png",
+    "mae_vs_training_data_volume_large_font.pdf",
+    "mape_vs_training_data_volume_large_font.png",
+    "mape_vs_training_data_volume_large_font.pdf",
+    "combined_error_metrics_vs_training_data_volume_large_font.png",
+    "combined_error_metrics_vs_training_data_volume_large_font.pdf"
+  ]
+}

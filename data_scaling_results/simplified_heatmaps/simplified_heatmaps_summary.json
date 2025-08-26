@@ -1,0 +1,78 @@
+{
+  "experiment_info": {
+    "title": "Simplified Spatial RMSE Heatmaps",
+    "description": "简化版RMSE空间分布热图 - 清洁设计，无信息框",
+    "features": [
+      "仅显示网格大小的简化标题",
+      "移除所有信息框",
+      "统一的颜色标尺",
+      "高分辨率输出"
+    ],
+    "total_grids": 10,
+    "grid_sizes": [
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      400,
+      500,
+      600,
+      800
+    ],
+    "generation_date": "2025-08-16T18:36:33.893644"
+  },
+  "file_list": {
+    "grid_50": {
+      "filename": "simplified_grid_050.png",
+      "title": "Grid Size = 50",
+      "grid_size": 50
+    },
+    "grid_100": {
+      "filename": "simplified_grid_100.png",
+      "title": "Grid Size = 100",
+      "grid_size": 100
+    },
+    "grid_150": {
+      "filename": "simplified_grid_150.png",
+      "title": "Grid Size = 150",
+      "grid_size": 150
+    },
+    "grid_200": {
+      "filename": "simplified_grid_200.png",
+      "title": "Grid Size = 200",
+      "grid_size": 200
+    },
+    "grid_250": {
+      "filename": "simplified_grid_250.png",
+      "title": "Grid Size = 250",
+      "grid_size": 250
+    },
+    "grid_300": {
+      "filename": "simplified_grid_300.png",
+      "title": "Grid Size = 300",
+      "grid_size": 300
+    },
+    "grid_400": {
+      "filename": "simplified_grid_400.png",
+      "title": "Grid Size = 400",
+      "grid_size": 400
+    },
+    "grid_500": {
+      "filename": "simplified_grid_500.png",
+      "title": "Grid Size = 500",
+      "grid_size": 500
+    },
+    "grid_600": {
+      "filename": "simplified_grid_600.png",
+      "title": "Grid Size = 600",
+      "grid_size": 600
+    },
+    "grid_800": {
+      "filename": "simplified_grid_800.png",
+      "title": "Grid Size = 800",
+      "grid_size": 800
+    }
+  }
+}

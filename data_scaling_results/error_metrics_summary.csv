@@ -1,0 +1,7 @@
+Metric,Best Value,Worst Value,Improvement (%),Best Grid Size,Best Sample Count
+Validation MAE,105.01,529.73,80.2%,800,32000
+Validation MAPE (%),10.17,29.82,65.9%,150,6000
+Validation RMSE,161.96,628.83,74.2%,800,32000
+Test MAE,75.59,642.00,88.2%,800,32000
+Test MAPE (%),10.80,36.24,70.2%,300,12000
+Test RMSE,116.35,756.47,84.6%,800,32000

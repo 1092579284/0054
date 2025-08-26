@@ -1,0 +1,213 @@
+{
+  "experiment_info": {
+    "name": "milano_data_scaling_experiment",
+    "description": "Milano网络流量预测数据量对比实验",
+    "datetime": "2025-08-12T07:35:19.270956",
+    "sequence_length": 8,
+    "device": "cuda"
+  },
+  "grid_sizes_tested": [
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    400,
+    500,
+    600,
+    800
+  ],
+  "results_summary": {
+    "grid_50": {
+      "grid_size": 50,
+      "sample_count": 2000,
+      "train_samples": 1400,
+      "training_time": 2.907007932662964,
+      "epochs_trained": 19,
+      "validation_metrics": {
+        "rmse": 628.8299458205622,
+        "r2": 0.47807168085649765,
+        "mae": 529.7251545176427,
+        "mape": 29.817447765419413
+      },
+      "test_metrics": {
+        "rmse": 756.4713686258722,
+        "r2": -0.6309905469917707,
+        "mae": 642.001705879907,
+        "mape": 36.23746572889273
+      }
+    },
+    "grid_100": {
+      "grid_size": 100,
+      "sample_count": 4000,
+      "train_samples": 2800,
+      "training_time": 8.172482967376709,
+      "epochs_trained": 30,
+      "validation_metrics": {
+        "rmse": 370.30453901217845,
+        "r2": 0.7602539023617176,
+        "mae": 254.5944034170128,
+        "mape": 12.732434383210716
+      },
+      "test_metrics": {
+        "rmse": 293.88658413412173,
+        "r2": 0.7146433272119603,
+        "mae": 210.92306280732114,
+        "mape": 13.523516847816037
+      }
+    },
+    "grid_150": {
+      "grid_size": 150,
+      "sample_count": 6000,
+      "train_samples": 4200,
+      "training_time": 12.348098993301392,
+      "epochs_trained": 30,
+      "validation_metrics": {
+        "rmse": 255.31701426019413,
+        "r2": 0.8628191301957283,
+        "mae": 167.87527688262952,
+        "mape": 10.171884549687906
+      },
+      "test_metrics": {
+        "rmse": 238.21504660432635,
+        "r2": 0.8075547485558175,
+        "mae": 163.6887652284278,
+        "mape": 12.376319372512073
+      }
+    },
+    "grid_200": {
+      "grid_size": 200,
+      "sample_count": 8000,
+      "train_samples": 5600,
+      "training_time": 16.569709539413452,
+      "epochs_trained": 30,
+      "validation_metrics": {
+        "rmse": 297.18498727580345,
+        "r2": 0.7946917366055205,
+        "mae": 187.3497982217594,
+        "mape": 11.296402881759992
+      },
+      "test_metrics": {
+        "rmse": 242.87408909836506,
+        "r2": 0.7657478611054911,
+        "mae": 158.86177405269797,
+        "mape": 11.53310211254357
+      }
+    },
+    "grid_250": {
+      "grid_size": 250,
+      "sample_count": 10000,
+      "train_samples": 7000,
+      "training_time": 20.35515856742859,
+      "epochs_trained": 28,
+      "validation_metrics": {
+        "rmse": 266.6968922177108,
+        "r2": 0.8209435213438881,
+        "mae": 180.17743744305187,
+        "mape": 11.902548048671267
+      },
+      "test_metrics": {
+        "rmse": 230.6603495237365,
+        "r2": 0.7407664663348961,
+        "mae": 156.8708673006922,
+        "mape": 12.962588634393466
+      }
+    },
+    "grid_300": {
+      "grid_size": 300,
+      "sample_count": 12000,
+      "train_samples": 8400,
+      "training_time": 25.961562156677246,
+      "epochs_trained": 30,
+      "validation_metrics": {
+        "rmse": 251.1665636713587,
+        "r2": 0.8367747967097561,
+        "mae": 158.28711305424713,
+        "mape": 10.621262529214736
+      },
+      "test_metrics": {
+        "rmse": 186.71067445633432,
+        "r2": 0.7913629302432877,
+        "mae": 122.19418416756558,
+        "mape": 10.795373458664988
+      }
+    },
+    "grid_400": {
+      "grid_size": 400,
+      "sample_count": 16000,
+      "train_samples": 11200,
+      "training_time": 32.827641010284424,
+      "epochs_trained": 30,
+      "validation_metrics": {
+        "rmse": 217.4195955218986,
+        "r2": 0.8677827886020931,
+        "mae": 142.98287567924154,
+        "mape": 10.86139089987207
+      },
+      "test_metrics": {
+        "rmse": 163.41367611134032,
+        "r2": 0.8045019266250095,
+        "mae": 109.20902325826908,
+        "mape": 10.818028778249689
+      }
+    },
+    "grid_500": {
+      "grid_size": 500,
+      "sample_count": 20000,
+      "train_samples": 14000,
+      "training_time": 40.230173110961914,
+      "epochs_trained": 30,
+      "validation_metrics": {
+        "rmse": 217.01816468172674,
+        "r2": 0.7975306503485285,
+        "mae": 142.8315950753704,
+        "mape": 12.797920452199671
+      },
+      "test_metrics": {
+        "rmse": 153.2587821536482,
+        "r2": 0.7584699737984741,
+        "mae": 109.72082126139162,
+        "mape": 13.073604630013747
+      }
+    },
+    "grid_600": {
+      "grid_size": 600,
+      "sample_count": 24000,
+      "train_samples": 16800,
+      "training_time": 48.661673069000244,
+      "epochs_trained": 30,
+      "validation_metrics": {
+        "rmse": 165.9955822464747,
+        "r2": 0.8743802789770563,
+        "mae": 110.64758036932801,
+        "mape": 11.037334756746231
+      },
+      "test_metrics": {
+        "rmse": 119.61932242036337,
+        "r2": 0.8292568694815597,
+        "mae": 85.32695734116085,
+        "mape": 11.87773551676498
+      }
+    },
+    "grid_800": {
+      "grid_size": 800,
+      "sample_count": 32000,
+      "train_samples": 22400,
+      "training_time": 36.4713773727417,
+      "epochs_trained": 17,
+      "validation_metrics": {
+        "rmse": 161.95628539910464,
+        "r2": 0.7804361199239027,
+        "mae": 105.01217520936552,
+        "mape": 11.6790048896306
+      },
+      "test_metrics": {
+        "rmse": 116.3468158368808,
+        "r2": 0.7959913654709583,
+        "mae": 75.58876259981395,
+        "mape": 11.053911758031425
+      }
+    }
+  }
+}

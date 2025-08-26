@@ -1,0 +1,400 @@
+{
+  "experiment_info": {
+    "title": "Complete Spatial RMSE Heatmaps Collection",
+    "description": "所有网格大小的RMSE空间分布热图完整集合",
+    "total_grids_available": 10,
+    "grid_sizes": [
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      400,
+      500,
+      600,
+      800
+    ],
+    "color_range_unified": true,
+    "generation_date": "2025-08-16T18:13:26.612935"
+  },
+  "grid_details": {
+    "grid_50": {
+      "grid_size": 50,
+      "sample_info": {
+        "total_samples": 2000,
+        "train_samples": 1400,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 2.907007932662964,
+        "epochs_trained": 19,
+        "time_per_sample_ms": 2.076434237616403
+      },
+      "overall_metrics": {
+        "rmse": 756.4713686258722,
+        "r2": -0.6309905469917707,
+        "mae": 642.001705879907,
+        "mape": 36.23746572889273
+      },
+      "spatial_statistics": {
+        "min_rmse": 3.0237448794150623,
+        "max_rmse": 2139.0232517767163,
+        "mean_rmse": 642.0017068908421,
+        "median_rmse": 587.6362323684789,
+        "std_rmse": 400.10341356473856,
+        "q25_rmse": 352.8083814418664,
+        "q75_rmse": 827.4949783704426,
+        "cv_rmse": 0.6232123828804198,
+        "spatial_range": 2135.999506897301
+      },
+      "filename": "spatial_heatmap_grid_050.png"
+    },
+    "grid_100": {
+      "grid_size": 100,
+      "sample_info": {
+        "total_samples": 4000,
+        "train_samples": 2800,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 8.172482967376709,
+        "epochs_trained": 30,
+        "time_per_sample_ms": 2.9187439169202536
+      },
+      "overall_metrics": {
+        "rmse": 293.88658413412173,
+        "r2": 0.7146433272119603,
+        "mae": 210.92306280732114,
+        "mape": 13.523516847816037
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.4053448770750947,
+        "max_rmse": 1265.748667554593,
+        "mean_rmse": 210.92306118232926,
+        "median_rmse": 145.2430289640655,
+        "std_rmse": 204.647957130761,
+        "q25_rmse": 64.94779171229683,
+        "q75_rmse": 292.09514452069635,
+        "cv_rmse": 0.9702493221158788,
+        "spatial_range": 1265.343322677518
+      },
+      "filename": "spatial_heatmap_grid_100.png"
+    },
+    "grid_150": {
+      "grid_size": 150,
+      "sample_info": {
+        "total_samples": 6000,
+        "train_samples": 4200,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 12.348098993301392,
+        "epochs_trained": 30,
+        "time_per_sample_ms": 2.9400235698336648
+      },
+      "overall_metrics": {
+        "rmse": 238.21504660432635,
+        "r2": 0.8075547485558175,
+        "mae": 163.6887652284278,
+        "mape": 12.376319372512073
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.03781412358966918,
+        "max_rmse": 1179.7828686345104,
+        "mean_rmse": 163.68876463050572,
+        "median_rmse": 108.28151443119464,
+        "std_rmse": 173.06760584216372,
+        "q25_rmse": 48.05008765254428,
+        "q75_rmse": 212.75007481867544,
+        "cv_rmse": 1.0572967926835348,
+        "spatial_range": 1179.7450545109207
+      },
+      "filename": "spatial_heatmap_grid_150.png"
+    },
+    "grid_200": {
+      "grid_size": 200,
+      "sample_info": {
+        "total_samples": 8000,
+        "train_samples": 5600,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 16.569709539413452,
+        "epochs_trained": 30,
+        "time_per_sample_ms": 2.9588767034666876
+      },
+      "overall_metrics": {
+        "rmse": 242.87408909836506,
+        "r2": 0.7657478611054911,
+        "mae": 158.86177405269797,
+        "mape": 11.53310211254357
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.02708055923937991,
+        "max_rmse": 1270.475267554593,
+        "mean_rmse": 158.8617749335773,
+        "median_rmse": 98.93365537128801,
+        "std_rmse": 183.71380045348934,
+        "q25_rmse": 41.80436113019047,
+        "q75_rmse": 205.93488455872819,
+        "cv_rmse": 1.1564380451515355,
+        "spatial_range": 1270.4481869953538
+      },
+      "filename": "spatial_heatmap_grid_200.png"
+    },
+    "grid_250": {
+      "grid_size": 250,
+      "sample_info": {
+        "total_samples": 10000,
+        "train_samples": 7000,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 20.35515856742859,
+        "epochs_trained": 28,
+        "time_per_sample_ms": 2.9078797953469415
+      },
+      "overall_metrics": {
+        "rmse": 230.6603495237365,
+        "r2": 0.7407664663348961,
+        "mae": 156.8708673006922,
+        "mape": 12.962588634393466
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.02056382376235888,
+        "max_rmse": 1239.082088422468,
+        "mean_rmse": 156.87086685749156,
+        "median_rmse": 105.78316320369458,
+        "std_rmse": 169.1027139100881,
+        "q25_rmse": 50.21180249096457,
+        "q75_rmse": 200.56621838460688,
+        "cv_rmse": 1.0779739877622305,
+        "spatial_range": 1239.0615245987055
+      },
+      "filename": "spatial_heatmap_grid_250.png"
+    },
+    "grid_300": {
+      "grid_size": 300,
+      "sample_info": {
+        "total_samples": 12000,
+        "train_samples": 8400,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 25.961562156677246,
+        "epochs_trained": 30,
+        "time_per_sample_ms": 3.090662161509196
+      },
+      "overall_metrics": {
+        "rmse": 186.71067445633432,
+        "r2": 0.7913629302432877,
+        "mae": 122.19418416756558,
+        "mape": 10.795373458664988
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.06371847245168283,
+        "max_rmse": 1259.599988422468,
+        "mean_rmse": 122.19418466268603,
+        "median_rmse": 76.1612203058362,
+        "std_rmse": 141.171730142299,
+        "q25_rmse": 34.94950766366475,
+        "q75_rmse": 156.8437664013121,
+        "cv_rmse": 1.1553064536745346,
+        "spatial_range": 1259.5362699500163
+      },
+      "filename": "spatial_heatmap_grid_300.png"
+    },
+    "grid_400": {
+      "grid_size": 400,
+      "sample_info": {
+        "total_samples": 16000,
+        "train_samples": 11200,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 32.827641010284424,
+        "epochs_trained": 30,
+        "time_per_sample_ms": 2.9310393759182523
+      },
+      "overall_metrics": {
+        "rmse": 163.41367611134032,
+        "r2": 0.8045019266250095,
+        "mae": 109.20902325826908,
+        "mape": 10.818028778249689
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.03076386199643366,
+        "max_rmse": 1234.2192686345104,
+        "mean_rmse": 109.20902281328821,
+        "median_rmse": 73.19525156236267,
+        "std_rmse": 121.56240703853035,
+        "q25_rmse": 32.79802501120275,
+        "q75_rmse": 141.44166288175643,
+        "cv_rmse": 1.1131168827173044,
+        "spatial_range": 1234.188504772514
+      },
+      "filename": "spatial_heatmap_grid_400.png"
+    },
+    "grid_500": {
+      "grid_size": 500,
+      "sample_info": {
+        "total_samples": 20000,
+        "train_samples": 14000,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 40.230173110961914,
+        "epochs_trained": 30,
+        "time_per_sample_ms": 2.8735837936401367
+      },
+      "overall_metrics": {
+        "rmse": 153.2587821536482,
+        "r2": 0.7584699737984741,
+        "mae": 109.72082126139162,
+        "mape": 13.073604630013747
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.011259622849365769,
+        "max_rmse": 1160.695685287384,
+        "mean_rmse": 109.72082148970865,
+        "median_rmse": 85.9070992095082,
+        "std_rmse": 107.00278470051565,
+        "q25_rmse": 38.083379709554976,
+        "q75_rmse": 150.17771554618278,
+        "cv_rmse": 0.975227702889119,
+        "spatial_range": 1160.6844256645347
+      },
+      "filename": "spatial_heatmap_grid_500.png"
+    },
+    "grid_600": {
+      "grid_size": 600,
+      "sample_info": {
+        "total_samples": 24000,
+        "train_samples": 16800,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 48.661673069000244,
+        "epochs_trained": 30,
+        "time_per_sample_ms": 2.8965281588690623
+      },
+      "overall_metrics": {
+        "rmse": 119.61932242036337,
+        "r2": 0.8292568694815597,
+        "mae": 85.32695734116085,
+        "mape": 11.87773551676498
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.00075470673050404,
+        "max_rmse": 1276.3957869010978,
+        "mean_rmse": 85.32695714785709,
+        "median_rmse": 65.09432008871033,
+        "std_rmse": 83.83372033149865,
+        "q25_rmse": 31.07459066707142,
+        "q75_rmse": 116.42596959943846,
+        "cv_rmse": 0.9824998234289439,
+        "spatial_range": 1276.3950321943673
+      },
+      "filename": "spatial_heatmap_grid_600.png"
+    },
+    "grid_800": {
+      "grid_size": 800,
+      "sample_info": {
+        "total_samples": 32000,
+        "train_samples": 22400,
+        "test_samples": "N/A",
+        "val_samples": "N/A"
+      },
+      "training_info": {
+        "training_time_seconds": 36.4713773727417,
+        "epochs_trained": 17,
+        "time_per_sample_ms": 1.6281864898545402
+      },
+      "overall_metrics": {
+        "rmse": 116.3468158368808,
+        "r2": 0.7959913654709583,
+        "mae": 75.58876259981395,
+        "mape": 11.053911758031425
+      },
+      "spatial_statistics": {
+        "min_rmse": 0.027327520664812255,
+        "max_rmse": 1393.4929753942633,
+        "mean_rmse": 75.58876268785492,
+        "median_rmse": 51.29244040999396,
+        "std_rmse": 88.4472752587627,
+        "q25_rmse": 23.730976909952545,
+        "q75_rmse": 98.87823637079843,
+        "cv_rmse": 1.170111430769243,
+        "spatial_range": 1393.4656478735985
+      },
+      "filename": "spatial_heatmap_grid_800.png"
+    }
+  },
+  "comparative_analysis": {
+    "spatial_variability": {
+      "grid_with_highest_spatial_variance": 50,
+      "grid_with_lowest_spatial_variance": 600,
+      "average_spatial_cv": 1.0281432824072743
+    },
+    "performance_trends": {
+      "best_overall_rmse_grid": 800,
+      "best_r2_grid": 600,
+      "rmse_improvement_ratio": 6.501865677926686
+    },
+    "data_efficiency": {
+      "samples_range": "1,400 - 22,400",
+      "performance_per_sample_efficiency": [
+        {
+          "grid_size": 50,
+          "efficiency_score": -0.45070753356555054
+        },
+        {
+          "grid_size": 100,
+          "efficiency_score": 0.25522975971855727
+        },
+        {
+          "grid_size": 150,
+          "efficiency_score": 0.1922749401323375
+        },
+        {
+          "grid_size": 200,
+          "efficiency_score": 0.13674068948312343
+        },
+        {
+          "grid_size": 250,
+          "efficiency_score": 0.10582378090498515
+        },
+        {
+          "grid_size": 300,
+          "efficiency_score": 0.09420987264801044
+        },
+        {
+          "grid_size": 400,
+          "efficiency_score": 0.07183052916294728
+        },
+        {
+          "grid_size": 500,
+          "efficiency_score": 0.05417642669989101
+        },
+        {
+          "grid_size": 600,
+          "efficiency_score": 0.04936052794533093
+        },
+        {
+          "grid_size": 800,
+          "efficiency_score": 0.03553532881566778
+        }
+      ]
+    }
+  }
+}

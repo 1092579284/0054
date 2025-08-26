@@ -1,0 +1,119 @@
+{
+  "experiment_info": {
+    "title": "Individual Spatial RMSE Heatmaps",
+    "description": "不同数据量下各网格RMSE的空间分布热图（单独保存版本）",
+    "total_grids": 6,
+    "grid_sizes": [
+      50,
+      100,
+      150,
+      200,
+      250,
+      800
+    ]
+  },
+  "grid_details": {
+    "grid_50": {
+      "grid_size": 50,
+      "train_samples": 1400,
+      "test_samples": "N/A",
+      "overall_rmse": 756.4713686258722,
+      "overall_r2": -0.6309905469917707,
+      "overall_mae": 642.001705879907,
+      "overall_mape": 36.23746572889273,
+      "spatial_statistics": {
+        "min_rmse": 3.0237448794150623,
+        "max_rmse": 2139.0232517767163,
+        "mean_rmse": 642.0017068908421,
+        "std_rmse": 400.10341356473856,
+        "median_rmse": 587.6362323684789
+      },
+      "filename": "spatial_heatmap_grid_50.png"
+    },
+    "grid_100": {
+      "grid_size": 100,
+      "train_samples": 2800,
+      "test_samples": "N/A",
+      "overall_rmse": 293.88658413412173,
+      "overall_r2": 0.7146433272119603,
+      "overall_mae": 210.92306280732114,
+      "overall_mape": 13.523516847816037,
+      "spatial_statistics": {
+        "min_rmse": 0.4053448770750947,
+        "max_rmse": 1265.748667554593,
+        "mean_rmse": 210.92306118232926,
+        "std_rmse": 204.647957130761,
+        "median_rmse": 145.2430289640655
+      },
+      "filename": "spatial_heatmap_grid_100.png"
+    },
+    "grid_150": {
+      "grid_size": 150,
+      "train_samples": 4200,
+      "test_samples": "N/A",
+      "overall_rmse": 238.21504660432635,
+      "overall_r2": 0.8075547485558175,
+      "overall_mae": 163.6887652284278,
+      "overall_mape": 12.376319372512073,
+      "spatial_statistics": {
+        "min_rmse": 0.03781412358966918,
+        "max_rmse": 1179.7828686345104,
+        "mean_rmse": 163.68876463050572,
+        "std_rmse": 173.06760584216372,
+        "median_rmse": 108.28151443119464
+      },
+      "filename": "spatial_heatmap_grid_150.png"
+    },
+    "grid_200": {
+      "grid_size": 200,
+      "train_samples": 5600,
+      "test_samples": "N/A",
+      "overall_rmse": 242.87408909836506,
+      "overall_r2": 0.7657478611054911,
+      "overall_mae": 158.86177405269797,
+      "overall_mape": 11.53310211254357,
+      "spatial_statistics": {
+        "min_rmse": 0.02708055923937991,
+        "max_rmse": 1270.475267554593,
+        "mean_rmse": 158.8617749335773,
+        "std_rmse": 183.71380045348934,
+        "median_rmse": 98.93365537128801
+      },
+      "filename": "spatial_heatmap_grid_200.png"
+    },
+    "grid_250": {
+      "grid_size": 250,
+      "train_samples": 7000,
+      "test_samples": "N/A",
+      "overall_rmse": 230.6603495237365,
+      "overall_r2": 0.7407664663348961,
+      "overall_mae": 156.8708673006922,
+      "overall_mape": 12.962588634393466,
+      "spatial_statistics": {
+        "min_rmse": 0.02056382376235888,
+        "max_rmse": 1239.082088422468,
+        "mean_rmse": 156.87086685749156,
+        "std_rmse": 169.1027139100881,
+        "median_rmse": 105.78316320369458
+      },
+      "filename": "spatial_heatmap_grid_250.png"
+    },
+    "grid_800": {
+      "grid_size": 800,
+      "train_samples": 22400,
+      "test_samples": "N/A",
+      "overall_rmse": 116.3468158368808,
+      "overall_r2": 0.7959913654709583,
+      "overall_mae": 75.58876259981395,
+      "overall_mape": 11.053911758031425,
+      "spatial_statistics": {
+        "min_rmse": 0.027327520664812255,
+        "max_rmse": 1393.4929753942633,
+        "mean_rmse": 75.58876268785492,
+        "std_rmse": 88.4472752587627,
+        "median_rmse": 51.29244040999396
+      },
+      "filename": "spatial_heatmap_grid_800.png"
+    }
+  }
+}
