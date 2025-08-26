@@ -1,0 +1,8 @@
+﻿strategy_name,training_time,test_rmse,test_r2,rmse_rank,time_rank,efficiency_score
+Adaptive Unfreezing,12.049,170.495,0.826,1,3,3.047
+Linear Progressive,13.604,170.836,0.825,2,4,3.313
+Exponential Progressive,17.501,170.982,0.825,3,5,3.976
+No Unfreezing,9.93,171.241,0.825,4,2,2.691
+Full Unfreezing,23.189,172.356,0.822,5,6,4.95
+Baseline (From Scratch),25.952,174.094,0.819,6,7,5.43
+Step Unfreezing,5.887,174.184,0.818,7,1,2.022

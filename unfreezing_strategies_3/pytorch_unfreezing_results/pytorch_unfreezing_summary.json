@@ -1,0 +1,154 @@
+{
+  "experiment_info": {
+    "name": "milano_pytorch_unfreezing_strategies",
+    "description": "PyTorch implementation of unfreezing strategies with baseline comparison",
+    "datetime": "2025-08-12T10:51:45.216731",
+    "target_domain_grids": 300,
+    "sequence_length": 8,
+    "device": "cuda"
+  },
+  "strategies_tested": [
+    "Baseline (From Scratch)",
+    "No Unfreezing",
+    "Full Unfreezing",
+    "Linear Progressive",
+    "Exponential Progressive",
+    "Step Unfreezing",
+    "Adaptive Unfreezing"
+  ],
+  "detailed_results": {
+    "baseline_from_scratch": {
+      "strategy_name": "Baseline (From Scratch)",
+      "is_baseline": true,
+      "training_time": 25.952167987823486,
+      "epochs": 30,
+      "final_trainable_ratio": 1.0,
+      "validation_metrics": {
+        "rmse": 214.95838213636023,
+        "r2": 0.8804437347189449,
+        "mae": 141.3472086204936,
+        "mape": 10.362031201091384
+      },
+      "test_metrics": {
+        "rmse": 174.09375349326032,
+        "r2": 0.8186074037887389,
+        "mae": 119.84093867502652,
+        "mape": 11.676026082623496
+      }
+    },
+    "no_unfreezing": {
+      "strategy_name": "No Unfreezing",
+      "is_baseline": false,
+      "training_time": 9.929761409759521,
+      "epochs": 30,
+      "final_trainable_ratio": 0.04088339687130275,
+      "validation_metrics": {
+        "rmse": 212.91378676393722,
+        "r2": 0.8827072580878368,
+        "mae": 139.93245190490774,
+        "mape": 10.25245003435808
+      },
+      "test_metrics": {
+        "rmse": 171.2405092111556,
+        "r2": 0.8245044129726002,
+        "mae": 114.84776854852484,
+        "mape": 10.71589206467401
+      }
+    },
+    "full_unfreezing": {
+      "strategy_name": "Full Unfreezing",
+      "is_baseline": false,
+      "training_time": 23.188941478729248,
+      "epochs": 30,
+      "final_trainable_ratio": 1.0,
+      "validation_metrics": {
+        "rmse": 209.72666863197836,
+        "r2": 0.8861924989500373,
+        "mae": 139.04023838400698,
+        "mape": 10.311307372444572
+      },
+      "test_metrics": {
+        "rmse": 172.35604741311076,
+        "r2": 0.822210449863861,
+        "mae": 116.8878554079666,
+        "mape": 10.442586227898195
+      }
+    },
+    "linear_progressive": {
+      "strategy_name": "Linear Progressive",
+      "is_baseline": false,
+      "training_time": 13.604075193405151,
+      "epochs": 30,
+      "final_trainable_ratio": 1.0,
+      "validation_metrics": {
+        "rmse": 212.08109493264485,
+        "r2": 0.8836229124622348,
+        "mae": 137.89526840273604,
+        "mape": 9.940417898943704
+      },
+      "test_metrics": {
+        "rmse": 170.835789767524,
+        "r2": 0.8253329849347522,
+        "mae": 112.6249454079874,
+        "mape": 10.463981064585786
+      }
+    },
+    "exponential_progressive": {
+      "strategy_name": "Exponential Progressive",
+      "is_baseline": false,
+      "training_time": 17.501441955566406,
+      "epochs": 30,
+      "final_trainable_ratio": 1.0,
+      "validation_metrics": {
+        "rmse": 211.6060285376744,
+        "r2": 0.8841437030736609,
+        "mae": 137.57755828605627,
+        "mape": 9.920289011752251
+      },
+      "test_metrics": {
+        "rmse": 170.98202060652383,
+        "r2": 0.8250338364284693,
+        "mae": 112.88374690800016,
+        "mape": 10.458810168757562
+      }
+    },
+    "step_unfreezing": {
+      "strategy_name": "Step Unfreezing",
+      "is_baseline": false,
+      "training_time": 5.886571645736694,
+      "epochs": 30,
+      "final_trainable_ratio": 0.4302991605476159,
+      "validation_metrics": {
+        "rmse": 214.61009773561926,
+        "r2": 0.880830840806309,
+        "mae": 142.29279954433886,
+        "mape": 10.455116523456493
+      },
+      "test_metrics": {
+        "rmse": 174.18449928103226,
+        "r2": 0.8184182539343774,
+        "mae": 118.23011680489157,
+        "mape": 10.878765349533797
+      }
+    },
+    "adaptive_unfreezing": {
+      "strategy_name": "Adaptive Unfreezing",
+      "is_baseline": false,
+      "training_time": 12.04940128326416,
+      "epochs": 30,
+      "final_trainable_ratio": 1.0,
+      "validation_metrics": {
+        "rmse": 209.6571806773251,
+        "r2": 0.8862679012860222,
+        "mae": 137.02214119429124,
+        "mape": 9.943455050442068
+      },
+      "test_metrics": {
+        "rmse": 170.49480748838172,
+        "r2": 0.8260295476253589,
+        "mae": 113.36476402479818,
+        "mape": 10.488488329275397
+      }
+    }
+  }
+}
