@@ -1,0 +1,109 @@
+{
+  "experiment_info": {
+    "name": "milano_ablation_study",
+    "description": "Milano网络流量预测消融实验",
+    "datetime": "2025-08-04T23:33:07.075575",
+    "sequence_length": 8,
+    "max_grids": 300,
+    "device": "cuda"
+  },
+  "models_tested": [
+    "unidirectional_gru",
+    "bidirectional_gru",
+    "unidirectional_gru_lstm",
+    "pure_lstm",
+    "baseline"
+  ],
+  "results_summary": {
+    "unidirectional_gru": {
+      "model_name": "单向GRU",
+      "architecture": "GRU(64) → Dense(64) → Output(1)",
+      "total_params": 19393,
+      "training_time": 17.026532411575317,
+      "validation_metrics": {
+        "rmse": 219.31778467856333,
+        "r2": 0.8755453088560545,
+        "mae": 145.45956701460884,
+        "mape": 10.442744033493263
+      },
+      "test_metrics": {
+        "rmse": 186.29815696648205,
+        "r2": 0.7922838348804488,
+        "mae": 129.74134794162046,
+        "mape": 11.559934904358427
+      }
+    },
+    "bidirectional_gru": {
+      "model_name": "双向GRU",
+      "architecture": "BiGRU(64*2) → Dense(64) → Output(1)",
+      "total_params": 38657,
+      "training_time": 19.604215383529663,
+      "validation_metrics": {
+        "rmse": 219.32313429172677,
+        "r2": 0.8755392373687385,
+        "mae": 144.65936010591585,
+        "mape": 10.397457674694275
+      },
+      "test_metrics": {
+        "rmse": 174.8364839837444,
+        "r2": 0.8170563636461816,
+        "mae": 116.37276223706799,
+        "mape": 9.975310978821556
+      }
+    },
+    "unidirectional_gru_lstm": {
+      "model_name": "单向GRU+LSTM",
+      "architecture": "GRU(64) → LSTM(32) → Dense(64) → Output(1)",
+      "total_params": 29889,
+      "training_time": 22.266058683395386,
+      "validation_metrics": {
+        "rmse": 227.72778454956818,
+        "r2": 0.8658175822937146,
+        "mae": 145.88519011488864,
+        "mape": 10.55602426290207
+      },
+      "test_metrics": {
+        "rmse": 177.25696296942255,
+        "r2": 0.8119558673356921,
+        "mae": 122.81668791646386,
+        "mape": 12.001370227785284
+      }
+    },
+    "pure_lstm": {
+      "model_name": "纯LSTM",
+      "architecture": "LSTM(64) → Dense(64) → Output(1)",
+      "total_params": 24449,
+      "training_time": 17.531572103500366,
+      "validation_metrics": {
+        "rmse": 215.40911283532466,
+        "r2": 0.8799418312800584,
+        "mae": 139.7819870100878,
+        "mape": 10.008856603837604
+      },
+      "test_metrics": {
+        "rmse": 177.56007544586782,
+        "r2": 0.811312200017831,
+        "mae": 118.00760462200834,
+        "mape": 10.48223428145936
+      }
+    },
+    "baseline": {
+      "model_name": "基线模型",
+      "architecture": "BiGRU(64*2) → LSTM(32) → Dense(64) → Output(1)",
+      "total_params": 53249,
+      "training_time": 25.30213952064514,
+      "validation_metrics": {
+        "rmse": 267.3954456678078,
+        "r2": 0.8150000621559351,
+        "mae": 184.74113160839698,
+        "mape": 12.642529089165588
+      },
+      "test_metrics": {
+        "rmse": 210.22359110991377,
+        "r2": 0.7355058443226457,
+        "mae": 144.21270124212504,
+        "mape": 12.699751688035171
+      }
+    }
+  }
+}

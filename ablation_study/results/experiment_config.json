@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-04T23:33:07.177761",
+  "config": {
+    "sequence_length": 8,
+    "max_grids": 300,
+    "epochs": 30,
+    "batch_size": 32,
+    "models_to_test": [
+      "unidirectional_gru",
+      "unidirectional_gru_lstm",
+      "pure_lstm",
+      "baseline"
+    ]
+  }
+}
